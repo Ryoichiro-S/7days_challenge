@@ -1,0 +1,19 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:589200642771:function:297fb3b3-bbab-4319-abf2-751142e8799f:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "publishingInformation": {
+      "locales": {
+        "ja-JP": {
+          "name": "7daysChallenge"
+        }
+      }
+    }
+  }
+}

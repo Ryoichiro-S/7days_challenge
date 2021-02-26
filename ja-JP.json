@@ -1,0 +1,60 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "運動チャレンジ",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "アレクサ止めて"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "ResetIntent",
+          "slots": [],
+          "samples": [
+            "リセットして"
+          ]
+        },
+        {
+          "name": "StartIntent",
+          "slots": [],
+          "samples": [
+            "スタート",
+            "スタートして"
+          ]
+        },
+        {
+          "name": "SelectIntent",
+          "slots": [
+            {
+              "name": "number",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "{number} かな",
+            "{number} にして",
+            "{number} 番です",
+            "{number} です",
+            "{number} "
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "7"
+}
